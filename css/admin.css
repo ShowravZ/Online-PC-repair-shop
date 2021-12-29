@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper
+{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer a 
+{
+    color: darkred;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.footer
+{
+    background-color: #7ed6df;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+}
+
+.menu
+{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.menu ul li a
+{
+    font-weight: bold;
+    color: brown;
+}
+
+.menu ul li a:hover
+{
+    color: #686de0;
+}
+
+/* MAIN CONTENT CODE IS HERE */
+
+.main-content
+{
+    background-color: #dff9fb;
+    padding: 3% 0;
+}
+
+.boxes
+{
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    float: left;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.table-full
+{
+    width: 100%;
+}
+
+table tr th
+{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td
+{
+    padding: 1%;
+}
+
+.button
+{
+    background-color: #f0932b;
+    padding: 1%;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover
+{
+    background-color: #686de0;
+}
+
+.table-30
+{
+    width: 30%;
+}
