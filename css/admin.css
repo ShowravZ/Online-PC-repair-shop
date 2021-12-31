@@ -46,7 +46,7 @@ a
 
 .menu
 {
-    text-align: center;
+    text-align: right;
     border-bottom: 1px solid black;
 }
 
@@ -66,7 +66,7 @@ a
 .main-content
 {
     background-color: #dff9fb;
-    padding: 3% 0;
+   
 }
 
 .boxes
@@ -93,6 +93,7 @@ a
 .table-full
 {
     width: 100%;
+    color: white;
 }
 
 table tr th
@@ -124,4 +125,153 @@ table tr td
 .table-30
 {
     width: 30%;
+}
+
+.majkhane
+{
+    margin-left: 40%;
+}
+.majekhane
+{
+    margin-right: 45%;
+}
+
+/* BACKGROUNDS HERE */
+
+.bg001
+{
+    background-image: url("../images/bg001.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg002
+{
+    background-image: url("../images/bg002.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg003
+{
+    background-image: url("../images/bg003.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg004
+{
+    background-image: url("../images/bg004.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg005
+{
+    background-image: url("../images/bg005.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg006
+{
+    background-image: url("../images/bg006.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.emptybg
+{
+    border: 1px solid black;
+    padding: 1%;
+    background-color: gray;
+}
+
+.blankbg
+{
+    background-color: white;
+}
+
+.done
+{
+    color: darkgreen;
+    font-weight: bold;
+    font-size:xx-large;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.failed
+{
+    color: darkred;
+    font-weight: bold;
+    font-size:xx-large;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login
+{
+    border: 3px solid black;
+    width: 30%;
+    margin: 15% auto;
+    padding: 5%;
+    color: darkred;
+}
+
+.bg007
+{
+    background-image: url("../images/bg007.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.bg008
+{
+    background-image: url("../images/bg008.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg009
+{
+    background-image: url("../images/bg009.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg010
+{
+    background-image: url("../images/bg010.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
+}
+
+.bg011
+{
+    background-image: url("../images/bg011.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding: 10% 1%;
 }

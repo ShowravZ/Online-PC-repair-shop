@@ -1,12 +1,20 @@
 <?php include('partials/menu.php'); ?>
 <!-- Section Starts Here -->
 <div class="main-content">
-            <div class="wrapper">
-                <h1 class="text-center">MANAGE SERVICE</h1>
+            <div class="wrapper bg008">
+                <h1 class="text-right">MANAGE SERVICE</h1>
 
                 <br/><br/><br/><br/>
 
-                <a href="#" class="button">ADD SERVICE</a>
+                <?php
+                if(isset($_SESSION['add']))
+                {
+                    echo $_SESSION['add'];
+                    unset ($_SESSION['add']);
+                }
+                ?>
+
+                
                 <br/><br/><br/><br/>
                 <table class="table-full">
                     <tr>
@@ -46,7 +54,10 @@
                         </td>
                     </tr>
                 </table>
-
+                <br/><br/><br/><br/>
+                <div style="margin-left: 80%" >
+                <a href="<?php echo SITEURL; ?>admin/add-service.php" class="button">ADD SERVICE</a>
+                </div>
             </div>
         </div>
         <!-- Section End Here -->

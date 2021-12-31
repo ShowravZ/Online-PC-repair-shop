@@ -2,7 +2,7 @@
 <!-- Section Starts Here -->
 <div class="main-content">
             <div class="wrapper">
-                <h1 class="text-center">MANAGE ORDER</h1>
+                <h1 class="text-right">MANAGE ORDER</h1>
 
                 <br/><br/><br/><br/>
                 <table class="table-full">
