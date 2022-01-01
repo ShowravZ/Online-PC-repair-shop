@@ -71,10 +71,10 @@ a
 
 .boxes
 {
-    width: 19%;
+    width: 17%;
     background-color: white;
-    margin: 1%;
-    padding: 2%;
+    margin: 3%;
+    padding: 3%;
     text-align: center;
     float: left;
 }
@@ -274,4 +274,28 @@ table tr td
     background-size: 200%;
     background-position: center;
     padding: 10% 1%;
+}
+
+.dashmajkhane
+{
+    margin-left: 19%;
+}
+
+.add_border
+{
+    border: solid black;
+}
+
+.button2
+{
+    background-color: skyblue;
+    padding: 1%;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button2:hover
+{
+    background-color: darkblue;
 }

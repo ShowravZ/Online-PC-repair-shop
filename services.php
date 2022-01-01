@@ -15,7 +15,7 @@
                     
                     <p>Cost: 500 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
                     
                     <p>Cost: 3000 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@
                     
                     <p>Cost: 1000 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
                     
                     <p>Cost: 500 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@
                     
                     <p>Cost: 2000 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                     
                     <p>Cost: 2000 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@
                     
                     <p>Cost: 500 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                
                     <p>Cost: 1000 Taka</p>
                     <br>
-                    <a href="order.html" class="button button-primary image-curve">Fix it!</a>
+                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 

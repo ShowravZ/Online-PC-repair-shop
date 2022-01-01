@@ -8,40 +8,26 @@
                 <table class="table-full">
                     <tr>
                         <th>Serial Number</th>
+                        <th>Service Name</th>
                         <th>Full Name</th>
-                        <th>Username</th>
-                        <th>Actions</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Cancel?</th>
                     </tr>
 
                     <tr>
                         <td>1. </td>
+                        <td>Mouse Fix</td>
                         <td>Showrav Zaman</td>
-                        <td>ShowravZ</td>
+                        <td>0164XXXXXXX</td>
+                        <td>email@email.com</td>
+                        <td>Mirpur,Dhaka</td>
                         <td>
-                            <a href="#" class="button">Update Admin</a>
-                            <a href="#" class="button">Delete Admin</a>
+                            <a href="#" class="button">Cancel</a>
                         </td>
                     </tr>
-
-                    <tr>
-                        <td>1. </td>
-                        <td>Showrav Zaman</td>
-                        <td>ShowravZ</td>
-                        <td>
-                            <a href="#" class="button">Update Admin</a>
-                            <a href="#" class="button">Delete Admin</a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>1. </td>
-                        <td>Showrav Zaman</td>
-                        <td>ShowravZ</td>
-                        <td>
-                            <a href="#" class="button">Update Admin</a>
-                            <a href="#" class="button">Delete Admin</a>
-                        </td>
-                    </tr>
+                    
                 </table>
 
             </div>

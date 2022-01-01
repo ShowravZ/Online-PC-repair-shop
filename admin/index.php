@@ -2,7 +2,7 @@
         
         <!-- Section Starts Here -->
         <div class="main-content">
-            <div class="wrapper">
+            <div class="wrapper bg011">
                 <h1 class="text-center">DASHBOARD</h1>
                 <br><br>
 
@@ -15,27 +15,21 @@
     ?>
 
     <br><br>
-
-                <div class="boxes">
-                    <h1>5</h1>
-                    Categories
+            <div class="dashmajkhane">
+                <div class="boxes add_border button2">
+                    <a href="manage-admin.php"><h1>MANAGE ADMIN</h1></a>
                 </div>
 
-                <div class="boxes">
-                    <h1>5</h1>
-                    Categories
+                <div class="boxes add_border button2">
+                <a href="manage-service.php"><h1>MANAGE SERVICE</h1></a>
                 </div>
 
-                <div class="boxes">
-                    <h1>5</h1>
-                    Categories
+                <div class="boxes add_border button2">
+                <a href="manage-order.php"><h1>MANAGE ORDER</h1></a>
                 </div>
 
-                <div class="boxes">
-                    <h1>5</h1>
-                    Categories
-                </div>
                 <div class="clearfix"></div>
+            </div>
 
             </div>
         </div>

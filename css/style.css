@@ -81,7 +81,7 @@ a:hover
 
 .Search
 {
-    background-image: url(../images/search_bg.webp);
+    background-color: slategrey;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,7 +140,7 @@ a:hover
 
 .Dead_end
 {
-    background-image: url(../images/footer.jpg);
+    background-color: slategrey;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,6 +218,7 @@ a:hover
     background-color: aquamarine;
     width: 50%;
     margin: 0 auto;
+    padding: 0 20%;
 }
 .input-responsive
 {
@@ -247,4 +248,13 @@ a:hover
 .Location
 {
     background-color: silver;
+}
+
+.orderbg
+{
+    background-image: url("../images/orderbg.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+    background-color: slategrey;
 }

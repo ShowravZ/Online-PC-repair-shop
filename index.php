@@ -56,7 +56,7 @@
                     <br>
                     <p>Description: Keyboard is one of the major components of PC without which it almost  impossible to work on system. It is a tough device that do not get broken so easily but sometimes it do gets fail. There are some common issue which you can face due to some problem that you are not aware about. After taking this service, your keyboard will perform like brand new!</p>
                     <br>
-                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
+                    <a href="<?php echo SITEURL; ?>order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
+                    <a href="<?php echo SITEURL; ?>order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -90,7 +90,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
+                    <a href="<?php echo SITEURL; ?>order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="order.php" class="button button-primary image-curve">Fix it!</a>
+                    <a href="<?php echo SITEURL; ?>order.php" class="button button-primary image-curve">Fix it!</a>
                 </div>
             </div>
 
