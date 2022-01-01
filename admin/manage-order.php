@@ -1,7 +1,7 @@
 <?php include('partials/menu.php'); ?>
 <!-- Section Starts Here -->
 <div class="main-content">
-            <div class="wrapper">
+            <div class="wrapper bg001">
                 <h1 class="text-right">MANAGE ORDER</h1>
 
                 <br/><br/><br/><br/>

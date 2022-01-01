@@ -7,10 +7,10 @@
             <br>
 
             <?php
-                if(isset($_SESSION['upload']))
+                if(isset($_SESSION['add']))
                 {
-                    echo $_SESSION['upload'];
-                    unset ($_SESSION['upload']);
+                    echo $_SESSION['add'];
+                    unset($_SESSION['add']);
                 }
             ?>
 
@@ -26,13 +26,6 @@
                         <td>Price: </td>
                         <td>
                             <input type="number" name="price">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Select Image: </td>
-                        <td>
-                            <input type="file" name="image">
                         </td>
                     </tr>
 
@@ -69,69 +62,43 @@
                         $price = $_POST['price'];
 
                         if(isset($_POST['featured']))
-
                         {
-                        $featured = $_POST['featured'];
+                            $featured = $_POST['featured'];
                         }
                         else
                         {
-                        $featured = "No";
+                            $featured = "No";
                         }
+
                         if(isset($_POST['active']))
-
                         {
-                        $active = $_POST['active'];
+                            $active = $_POST['active'];
                         }
                         else
                         {
-                        $active = "No";
+                            $active = "No";
                         }
-                        if(isset($_FILES['image']['name']))
 
-                        {
-                        $image_name = $_FILES['image']['name'];
-                        if($image_name!="")
-                        {
-                            $ext = end(explode('.', $image_name));
-                            $image_name = "Service-Name-".rand(0000,9999).".".$ext;
-                            $src = $_FILES['image']['temp_name'];
-                            $dst= "../images/service/".$image_name;
-                            $upload = move_uploaded_file($src, $dst);
-
-                            if($upload==false)
-
-                            {
-                                $_SESSION['upload'] = "<div class='failed'>Upload Failed!</div>";
-                                header('location:'.SITEURL.'admin/add-service.php');
-                                die();
-                            }
-                        }
-                            }
-                            else
-                                {
-                                $image_name = "";
-                                }
 
                         $sql = "INSERT INTO service_info SET
                         service_name = '$service_name',
-                        price = '$price',
-                        image_name = '$image_name',
+                        price = $price,
                         featured = '$featured',
                         active = '$active' 
                         ";
 
                     
-                        $res= mysqli_query($conn, $sql);
+                        $res = mysqli_query($conn, $sql);
 
-                        if($res==true)
+                        if($res==TRUE)
                         {
-                        $_SESSION['add']= "<div class='done'>Done!</div>";
-                        header('location'.SITEURL.'admin/manage-service.php');
-                         }
+                            $_SESSION['add']= "<div class='done'>Done!</div>";
+                            header('location:'.SITEURL.'admin/manage-service.php');
+                        }
                         else
                         {
-                        $_SESSION['add']= "<div class='failed'>Failed!</div>";
-                        header('location'.SITEURL.'admin/manage-service.php');
+                            $_SESSION['add']= "<div class='failed'>Failed!</div>";
+                            header('location:'.SITEURL.'admin/manage-service.php');
                         }
 
                     }
